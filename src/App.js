@@ -20,6 +20,7 @@ function App() {
       <Route  path="/home" element={<Booklists/>}/>
         <Route path="/books/:id" element={<Bookdetails/>}/>
         <Route path="/favorites" element={<Favorite/>}/>
+        <Route path='*' element={"Error 404"}/>
      </Routes>
      <Footer/>
     </div>
